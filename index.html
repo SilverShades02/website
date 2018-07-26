@@ -28,6 +28,11 @@
        		alert(data);
 		    });
 		}
+		function changelog_kenzo(){
+		    $.get('https://raw.githubusercontent.com/SimplixDot/platform_vendor_ota/oreo/changelogs-beta/kenzo.txt', function(data) {
+       		alert(data);
+		    });
+		}
 		</script>
 	</head>
 	<body class="is-preload">
@@ -129,7 +134,13 @@
 							<div class="content">
 								<div class="inner">
 									<h2>Xiaomi Redmi Note 3 (Kenzo)</h2>
-									<p>Coming soon</p>
+									<p>Latest beta: Simplix Orange - Beta 1.7.3 <a onclick="changelog_kenzo()">Changelog</a></br>
+									Build date: 2018-07-25</p>
+									<!--<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p> -->
+									<ul class="actions">
+										<li><a href="https://forum.xda-developers.com/redmi-note-3/development/rom-simplix-orange-1-7-3-t3821312" class="button">XDA thread</a></li>
+										<li><a href="https://sourceforge.net/projects/simplix-rom/files/kenzo/Simplix_Orange_kenzo_8.1.0_20180725_1.7.3-OFFICIAL.zip/download" class="button icon fa-download">Download</a></li>
+									</ul>
 								</div>
 							</div>
 						</section>
