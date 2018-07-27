@@ -33,6 +33,11 @@
        		alert(data);
 		    });
 		}
+		function changelog_mido(){
+		    $.get('https://raw.githubusercontent.com/SimplixDot/platform_vendor_ota/oreo/changelogs-beta/mido.txt', function(data) {
+       		alert(data);
+		    });
+		}
 		</script>
 	</head>
 	<body class="is-preload">
@@ -149,7 +154,7 @@
 							<div class="content">
 								<div class="inner">
 									<h2>Xiaomi Redmi Note 4 (Mido)</h2>
-									<p>Latest beta: Simplix Orange - Beta 1.7.3 <a onclick="changelog_kenzo()">Changelog</a></br>
+									<p>Latest beta: Simplix Orange - Beta 1.7.3 <a onclick="changelog_mido()">Changelog</a></br>
 									Build date: 2018-07-26</p>
 									<!--<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p> -->
 									<ul class="actions">
